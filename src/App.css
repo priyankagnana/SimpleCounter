@@ -1,0 +1,62 @@
+.counter {
+  text-align: center;
+  padding: 2rem;
+}
+
+.counter h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #a1a1aa;
+}
+
+.count {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 2rem;
+  min-width: 6rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #27272a;
+  color: #e4e4e7;
+  transition: background 0.15s;
+}
+
+.buttons button:hover {
+  background: #3f3f46;
+}
+
+.buttons button:active {
+  transform: scale(0.98);
+}
+
+.buttons button:first-of-type {
+  background: #7f1d1d;
+}
+
+.buttons button:first-of-type:hover {
+  background: #991b1b;
+}
+
+.buttons button:last-of-type {
+  background: #14532d;
+}
+
+.buttons button:last-of-type:hover {
+  background: #166534;
+}
